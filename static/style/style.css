@@ -16,22 +16,32 @@ header {
 .menu {
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    transition-duration: 0.5s;
+    border-bottom: 2px solid #ffffff00;
+}
+
+.menu:hover {
+    font-weight: 600;
+    transition-duration: 1s;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .wrapper-header {
     width: 90%;
     height: 100px;
-    padding: 32px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
 
-nav {
+.nav {
     display: flex;
-    justify-content: space-between;
-    width: 40%;
+    column-gap: 17px;
 }
 
 .acc {
@@ -43,10 +53,22 @@ nav {
 .btn {
     background: #FA3C45;
     border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 14px 24px;
-    
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btnacc {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 62px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    font-weight: 700;
 }
