@@ -58,6 +58,7 @@ header {
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .btnacc {
@@ -71,4 +72,29 @@ header {
     color: #FFFFFF;
     padding-top: 50px;
     font-weight: 700;
+}
+
+.main {
+    width: 1232px;
+    margin: 0 auto;
+}
+
+.home {
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 816px;
+}
+
+.content-right {
+    width: 400px;
 }
