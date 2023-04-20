@@ -109,6 +109,11 @@ header {
     align-items: center;
     background: #E2E2EA;
     border-radius: 8px;
+    border: 1px solid #000;
+}
+
+.play {
+    cursor: pointer;
 }
 
 .left-title { 
@@ -209,6 +214,8 @@ header {
     background: #ffffff;
     border-radius: 8px;
     margin-top: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact {
@@ -218,4 +225,78 @@ header {
     letter-spacing: 0.005em;
     color: #11142D;
     padding: 48px 72px 32px 44px;
+}
+
+.input {
+    width: 296px;
+    height: 56px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    
+    margin-left: 52px;
+}
+
+.input2 {
+    width: 296px;
+    height: 56px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+    margin-top: 24px;
+    margin-left: 52px;
+}
+
+.input3 {
+    background: #FFFFFF;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    width: 296px;
+    height: 120px;
+    margin-top: 24px;
+    margin-left: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+
+.button {
+    background: #FA3C45;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    gap: 10px;
+    width: 168px;
+    height: 56px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    margin-left: 52px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 120%;  
+    text-align: center;
+    letter-spacing: 0.005em;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transition-duration: 1s;
+    border: 1px solid #C5010A;
+    background-color: #FFFFFF;
+    color: #C5010A;
 }
