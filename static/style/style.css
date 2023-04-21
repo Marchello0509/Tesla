@@ -200,14 +200,6 @@ header {
     color: #C5010A;
 }
 
-.block {
-    background: #ffffff;
-    border-radius: 8px; 
-    width: 100%;
-    height: 679px;
-    margin-top: 56px;
-}
-
 .cont {
     width: 100%;
     height: 560px;
@@ -237,8 +229,7 @@ header {
     line-height: 120%;
     letter-spacing: 0.005em;
     color: #9A9AB0;
-    
-    margin-left: 52px;
+    margin-left: 42px;
 }
 
 .input2 {
@@ -252,7 +243,7 @@ header {
     letter-spacing: 0.005em;
     color: #9A9AB0;
     margin-top: 24px;
-    margin-left: 52px;
+    margin-left: 42px;
 }
 
 .input3 {
@@ -262,7 +253,7 @@ header {
     width: 296px;
     height: 120px;
     margin-top: 24px;
-    margin-left: 52px;
+    margin-left: 42px;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
@@ -284,7 +275,7 @@ header {
     color: #FFFFFF;
     border: none;
     margin-top: 40px;
-    margin-left: 52px;
+    margin-left: 42px;
     font-weight: 700;
     font-size: 15px;
     line-height: 120%;  
@@ -295,6 +286,160 @@ header {
 }
 
 .button:hover {
+    transition-duration: 1s;
+    border: 1px solid #C5010A;
+    background-color: #FFFFFF;
+    color: #C5010A;
+}
+
+.block {
+    background: #ffffff;
+    border-radius: 8px; 
+    width: 100%;
+    height: 679px;
+    margin-top: 56px;
+}
+
+.calcut {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    padding-top: 48px;
+    margin-left: 48px;
+}
+
+.text2 {
+    padding-top: 24px;
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #92929D;
+}
+
+.price {
+    padding-top: 45px;
+    margin-left: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.input-price {
+    margin-top: 21px;
+    margin-left: 48px;
+    padding: 19px 534px 18px 16px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;   
+}
+
+.interest {
+    padding-top: 32px;
+    margin-left: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.input-interest {
+    margin-top: 21px;
+    margin-left: 48px;
+    padding: 19px 122px 18px 16px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;   
+}
+
+.period-div {
+    margin-top: -130px;
+    margin-left: 394px;
+}
+
+.period {
+    padding-top: 32px;
+    margin-left: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.input-period {
+    margin-top: 21px;
+    margin-left: 48px;
+    padding: 19px 122px 18px 16px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;   
+}
+
+.down {
+    padding-top: 32px;
+    margin-left: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.input-down {
+    margin-top: 21px;
+    margin-left: 48px;
+    padding: 19px 534px 18px 16px;
+    border: 1px solid #FA3C45;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0; 
+}
+
+.calculate {
+    margin-left: 48px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 10px;
+    background: #FA3C45;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.calculate:hover {
     transition-duration: 1s;
     border: 1px solid #C5010A;
     background-color: #FFFFFF;
