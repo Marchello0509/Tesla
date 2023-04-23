@@ -60,6 +60,14 @@ header {
     font-size: 16px;
     color: #ffffff;
     cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    transition-duration: 1s;
+    border: 1px solid #FFFFFF;
+    background-color: #C5010A;
+    color: #FFFFFF;
 }
 
 .btnacc {
@@ -458,7 +466,7 @@ header {
     margin-top: 160px;
 }
 
-.text-down {
+.download2 {
     width: 530px;
     margin-top: 147px;
 }
@@ -499,4 +507,156 @@ header {
 
 .list {
     margin-top: 58px;
+}
+
+.btn-down {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.btnn {
+    padding-left: 35px;
+}
+
+.btn-apple {
+    width: 203px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+}
+
+.btn-google {
+    width: 203px;
+    height: 60px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.apple {
+    font-size: 17px;
+}
+
+.apple2 {
+    font-size: 25px;
+}
+
+.google {
+    font-size: 15px;
+}
+
+.google2 {
+    font-size: 25px;
+}
+
+.WTOR {
+    margin-top: 134px;
+}
+
+.WTOR-text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.WTOR-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;
+    margin-top: 24px;
+}
+
+.WTOR-btn {
+    width: 364px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 555px;
+}
+
+.prem {
+    background: #FA3C45;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    padding: 18px 24px;
+    gap: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center; 
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    font-weight: 700;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.prem:hover {
+    transition-duration: 1s;
+    border: 1px solid #FA3C45;
+    background-color: #E5E5E5;
+    color: #FA3C45;
+}
+
+.bomj {
+    border: 2px solid #FA3C45;
+    border-radius: 8px;
+    background: #E5E5E5;
+    color: #FA3C45;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    gap: 10px;
+    line-height: 120%;
+    text-align: center; 
+    letter-spacing: 0.005em;
+    font-weight: 700;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.bomj:hover {
+    transition-duration: 1s;
+    border: none;
+    background-color: #FA3C45;
+    color: #ffffff;
 }
